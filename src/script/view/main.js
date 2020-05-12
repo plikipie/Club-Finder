@@ -1,4 +1,4 @@
-import DataSource from "../data/data-source";
+import DataSource from "../data/data-source.js";
 
 const main = () => {
   const searchElement = document.querySelector("#searchElement");
@@ -41,7 +41,7 @@ const main = () => {
             <p>${description}</p> 
         </div>`;
 
-      clubListElement.appendChild(clubElement); 
+      clubListElement.appendChild(clubElement);
     });
   };
 
