@@ -27,10 +27,10 @@ const main = () => {
     //     try{
     //         const result = await DataSource.searchClub(searchElement.value);
     //         renderResult(result);
-    //     } catch (message) {
+    //     } catch (    message) {
     //         fallbackResult(message)
     //     }
-    //  };
+    //  };]
     const renderResult = (results) => {
         clubListElement.clubs = results;
     };
